@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+}
+.main {
+	background-color: #a9a9a9;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+header {
+	text-align: center;
+	padding: 2% 1%;
+}
+header > h1 {
+	margin: 0;
+	font-size: 4em;
+	font-family: 'Pacifico';
+	font-weight: 300;
+}
+.crest {
+	flex: 1 1 30%;
+	padding: 0 35%;
+}
+.crest > img {
+	width: 100%;
+}
+.houses {
+	display: flex;
+}
+.houses2 {
+	flex: 1 1 50%;
+	text-align: center;
+	padding: 2% 4%;
+}
+.slBtn, .rvBtn, .gyBtn, .hpBtn {
+	border-radius: 10px;
+}
+.slBtn > a, .rvBtn > a, .gyBtn > a, .hpBtn > a {
+	display: inline-block;
+	font-family: 'Montserrat';
+	font-size: 2em;
+}
+.slBtn {
+	background-color: #145A32; /*forest green*/
+}
+.slBtn > a {
+	color: #d3d3d3; /*silver*/
+	padding: 10% 35%;
+}
+.rvBtn {
+	background-color: #07306B; /*blue*/
+}
+.rvBtn > a {
+	color: #9A7D0A; /*bronze*/
+	padding: 10% 33%;
+}
+.gyBtn {
+	background-color: #8f0000; /*crimson*/
+}
+.gyBtn > a {
+	color: #F1C40F; /*gold*/
+	padding: 10% 34%;
+}
+.hpBtn {
+	background-color: #FFF500; /*yellow*/
+}
+.hpBtn > a {
+	color: #000000; /*black*/
+	padding: 10% 34%;
+}
+.Rbackground {
+	background-color: #07306B; /*blue*/
+}
+.Sbackground {
+	background-color: #145A32; /*forest green*/
+}
+.Gbackground {
+	background-color: #8f0000; /*crimson*/
+}
+.Hbackground {
+	background-color: #FFF500; /*yellow*/
+}
+.Rbackground > header > h1, .Rtext > p {
+	color: #9A7D0A; /*bronze*/
+}
+.Sbackground > header > h1, .Stext > p {
+	color: #d3d3d3; /*silver*/
+}
+.Gbackground > header > h1, .Gtext > p {
+	color: #F1C40F; /*gold*/
+}
+.Hbackground > header > h1, .Htext > p {
+	color: #000000; /*black*/
+}
+.Rtext, .Rreturn, .Stext, .Sreturn, .Gtext, .Greturn, .Htext, .Hreturn {
+	text-align: center;
+}
+.Rreturn > a, .Sreturn > a, .Greturn > a, .Hreturn > a {
+	display: inline-block;
+	padding: 2% 4%;
+	font-family: 'Pacifico';
+	font-size: 1.5em;
+	border-radius: 10px;
+	margin-bottom: 2%;
+}
+.Rreturn > a {
+	background-color: #9A7D0A; /*bronze*/
+	color: #07306B; /*blue*/
+}
+.Sreturn > a {
+	background-color: #d3d3d3; /*silver*/
+	color: #145A32; /*forest green*/
+}
+.Greturn > a {
+	background-color: #F1C40F; /*gold*/	
+	color: #8f0000; /*crimson*/
+}
+.Hreturn > a {
+	background-color: #000000;
+	color: #FFF500; /*yellow*/
+}
+.founder {
+	font-size: 1.5em;
+	font-family: 'Montserrat';
+}
+.quote {
+	font-size: 2em;
+	font-family: 'Montserrat';
+	padding: 3% 35%;
+}
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 1% 0;
+}
+footer > p {
+	font-family: 'Montserrat';
+	color: #d3d3d3;
+}
